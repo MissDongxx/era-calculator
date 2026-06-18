@@ -139,8 +139,7 @@ a { color: inherit; }
   inset: 0;
   background:
     linear-gradient(45deg, transparent 47%, rgba(255,255,255,0.22) 48%, rgba(255,255,255,0.22) 52%, transparent 53%) 74% 56% / 230px 230px no-repeat,
-    linear-gradient(135deg, transparent 47%, rgba(255,255,255,0.16) 48%, rgba(255,255,255,0.16) 52%, transparent 53%) 74% 56% / 230px 230px no-repeat,
-    repeating-linear-gradient(0deg, rgba(255,255,255,0.08), rgba(255,255,255,0.08) 1px, transparent 1px, transparent 26px);
+    linear-gradient(135deg, transparent 47%, rgba(255,255,255,0.16) 48%, rgba(255,255,255,0.16) 52%, transparent 53%) 74% 56% / 230px 230px no-repeat;
   opacity: 0.88;
 }
 .hero-inner {
