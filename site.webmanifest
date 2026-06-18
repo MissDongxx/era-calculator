@@ -1,0 +1,14 @@
+{
+  "name": "ERA Calculator",
+  "short_name": "ERA",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#1f6a4a",
+  "background_color": "#f7faf8",
+  "display": "browser"
+}

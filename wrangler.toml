@@ -3,4 +3,4 @@ compatibility_date = "2026-06-18"
 pages_build_output_dir = "."
 
 [vars]
-SITE_URL = "https://eraclaculator.net"
+SITE_URL = "https://eracalculator.net"

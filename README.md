@@ -1,6 +1,6 @@
 # ERA Calculator Website
 
-Static SEO site for `eraclaculator.net`, focused on the keyword `era calculator` and related one-keyword-per-page search intents.
+Static SEO site for `eracalculator.net`, focused on the keyword `era calculator` and related one-keyword-per-page search intents.
 
 ## Pages
 
@@ -41,7 +41,7 @@ This project is ready for Cloudflare Pages as a static site. There is no build o
 3. Set build command to blank.
 4. Set build output directory to `/`.
 5. Set production branch to `main`.
-6. Add the custom domain `eraclaculator.net`.
+6. Add the custom domain `eracalculator.net`.
 
 After that, every push to `main` automatically deploys to Cloudflare Pages.
 
@@ -57,15 +57,15 @@ npx wrangler pages deploy . --project-name=era-calculator
 After deployment, add the custom domain in Cloudflare Pages:
 
 ```text
-eraclaculator.net
+eracalculator.net
 ```
 
-Cloudflare will guide the DNS record creation. The `_redirects` file redirects `www.eraclaculator.net` to the apex domain.
+Cloudflare will guide the DNS record creation. The `_redirects` file redirects `www.eracalculator.net` to the apex domain.
 
 ## SEO Included
 
 - Unique title and meta description per keyword page
-- Canonical URLs for `https://eraclaculator.net`
+- Canonical URLs for `https://eracalculator.net`
 - `sitemap.xml`
 - `robots.txt`
 - FAQ schema on every keyword page

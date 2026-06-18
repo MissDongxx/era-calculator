@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eraclaculator.net/sitemap.xml
+Sitemap: https://eracalculator.net/sitemap.xml
