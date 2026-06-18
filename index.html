@@ -14,8 +14,16 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#1f6a4a">
   <link rel="stylesheet" href="/assets/site.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VE02MR369"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4VE02MR369');
+  </script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"ERA Calculator","url":"https://eracalculator.net/","applicationCategory":"SportsApplication","operatingSystem":"Any","description":"A free Earned Run Average(ERA) calculator for baseball and softball pitchers.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"ERA Calculator","url":"https://eracalculator.net/","applicationCategory":"SportsApplication","operatingSystem":"Any","description":"A free ERA calculator for baseball and softball pitchers.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
   </script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you calculate ERA?","acceptedAnswer":{"@type":"Answer","text":"ERA equals earned runs multiplied by the game length, then divided by innings pitched."}},{"@type":"Question","name":"Does this ERA calculator support partial innings?","acceptedAnswer":{"@type":"Answer","text":"Yes. Enter the completed innings and select 0, 1, or 2 outs for the partial inning."}}]}
@@ -47,7 +55,7 @@
         <div>
           <p class="eyebrow">Free pitching stat tool</p>
           <h1>ERA Calculator for Baseball and Softball</h1>
-          <p class="hero-copy">Calculate Earned Run Average(ERA) in seconds, handle partial innings correctly, switch between 9-inning and 7-inning games, and reverse the formula when you need earned runs or innings pitched.</p>
+          <p class="hero-copy">Use this ERA calculator to calculate Earned Run Average(ERA) in seconds, handle partial innings correctly, switch between 9-inning and 7-inning games, and reverse the formula when you need earned runs or innings pitched.</p>
           <div class="hero-actions">
             <a class="button primary" href="#calculator">Calculate ERA</a>
             <a class="button secondary" href="#how-to-calculate-era">How to calculate ERA</a>
@@ -69,7 +77,7 @@
 
     <section class="section" id="calculator">
       <h2>ERA Calculator</h2>
-      <p class="lead">Enter earned runs, innings pitched, and game length. For baseball, use 9 innings. For most softball and youth formats, use 7 innings unless your league uses a different official length.</p>
+      <p class="lead">This ERA calculator uses earned runs, innings pitched, and game length. For baseball, use 9 innings. For most softball and youth formats, use 7 innings unless your league uses a different official length.</p>
       <div class="tool-shell">
         <form class="calculator" data-era-calculator>
           <div class="segmented" role="radiogroup" aria-label="Calculator mode">
@@ -120,7 +128,7 @@
 
     <section class="section tight" id="era-rules">
       <h2>What Is ERA?</h2>
-      <p class="lead">ERA means Earned Run Average(ERA). It estimates how many earned runs a pitcher would allow across one official game length.</p>
+      <p class="lead">ERA means Earned Run Average(ERA). An ERA calculator estimates how many earned runs a pitcher would allow across one official game length.</p>
       <div class="grid-3">
         <div class="content-card">
           <h3>Earned runs only</h3>
@@ -153,7 +161,7 @@
 
     <section class="section tight" id="how-to-calculate-era">
       <h2>How to Calculate ERA</h2>
-      <p class="lead">To calculate ERA manually, multiply earned runs by the official game length, then divide by innings pitched.</p>
+      <p class="lead">To calculate ERA manually, use the same formula as the ERA calculator: multiply earned runs by the official game length, then divide by innings pitched.</p>
       <div class="content-card">
         <h3>Step-by-step method</h3>
         <p>First, confirm the earned runs allowed. Second, convert innings pitched into a true innings value. Third, multiply earned runs by game length. Finally, divide by innings pitched.</p>
@@ -165,7 +173,7 @@
 
     <section class="section tight">
       <h2>ERA Calculator Pages by Keyword</h2>
-      <p class="lead">Each page focuses on a specific search intent, then links back to the calculator so visitors can move from explanation to action.</p>
+      <p class="lead">Each page focuses on a specific ERA calculator search intent, then links back to the calculator so visitors can move from explanation to action.</p>
       <div class="grid-3">
         <div class="keyword-card"><h3>How Is ERA Calculated</h3><p>A direct answer page for how the ERA stat is calculated.</p><a href="/how-is-era-calculated/">Open page</a></div>
         <div class="keyword-card"><h3>ERA Calculation</h3><p>The calculation page with formula, notation, and examples.</p><a href="/era-calculation/">Open page</a></div>
